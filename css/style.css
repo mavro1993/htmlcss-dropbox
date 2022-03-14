@@ -224,7 +224,7 @@ ul li {
 }
 
 .images img {
-    width: 50%;
+    width: 70%;
 }
 
 .designit {
@@ -317,4 +317,15 @@ ul {
 
 ul li a {
     color: white;
+}
+
+.columnn-one , .columnn-three {
+    position: relative;
+}
+
+.images img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
