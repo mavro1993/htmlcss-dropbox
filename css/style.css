@@ -13,6 +13,10 @@ header {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .col-2 ul li {
     list-style: none;
     display: inline-block;
@@ -110,7 +114,7 @@ h2 {
 }
 
 .container {
-    width: 50%;
+    width: 80%;
     height: 600px;
     margin: 0 auto;
 }
@@ -120,10 +124,158 @@ h2 {
 }
 
 .column-one, .column-two, .column-three {
-    width: 30%;
+    width: calc(100%/3 - 20px);
+    margin: 5px;
     border: 1px solid black;
 }
 
 .center {
     text-align: center;
+}
+
+.team-content {
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.team {
+    text-align: center;
+}
+
+.columnn-1 {
+    width: 75%;
+}
+
+.columnn-2 {
+    width: 25%;
+}
+
+h2 , h3, h4, p {
+    padding: 5px;
+}
+
+ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+.two-cols {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dimension {
+    width: 100%;
+}
+
+.two-cols {
+    margin-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.columnnn-1, .columnnn-2 {
+    width: 50%;
+}
+
+.white-button {
+    background-color: white;
+    padding: 2px 5px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.products-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product {
+    width: 32%;
+    margin: 2px;
+    display: inline-block;
+}
+
+.product img {
+    width: 60%;
+}
+
+.h3-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.columnn-one, .columnn-two, .columnn-three {
+    width: 33%;
+}
+
+.images {
+    display: inline-block;
+}
+
+.images img {
+    width: 50%;
+}
+
+.designit {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.colummn-one, .colummn-two {
+    width: 50%;
+    background-color: skyblue;
+}
+
+.purple {
+    color: purple;
+}
+
+.questions {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.distances {
+    padding: 20px;
+}
+
+.black {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    height: 500px;
+}
+
+ul li {
+    color: white;
+}
+
+ul {
+    display: inline-block;
+}
+
+.font {
+    font-size: 2em;
+}
+
+.black {
+    position: relative;
+}
+.translate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li a {
+    color: white;
 }
